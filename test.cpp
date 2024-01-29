@@ -12,7 +12,7 @@ int main()
 
     a = (struct node *)malloc(sizeof(struct node));
     a->val = 1;
-    a->left=a->right =  NULL;
+    //a->left=a->right =  NULL;
 
     cout << a->val<<endl;
      
